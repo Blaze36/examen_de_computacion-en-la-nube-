@@ -108,6 +108,7 @@ if nombre_cliente and rtn_cliente:
     
     if st.button(" Generar Factura"):
         st.success("¡Factura correcta!")
-        st.balloons()
+     
 else:
+
     st.warning(" Por favor, completa los datos del cliente para ver la factura")
